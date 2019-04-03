@@ -1,0 +1,2 @@
+docker build --tag "leftandright/lr-apache-php:latest" --tag "leftandright/lr-apache-php:1.0.0" ./docker/lr-apache-php
+docker push "leftandright/lr-apache-php:latest" && docker push "leftandright/lr-apache-php:1.0.0"
